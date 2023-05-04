@@ -1,0 +1,18 @@
+@page {
+    size: A4;
+    background-color: red;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.text{
+    @apply text-xl font-bold
+}
+
+.input{
+    @apply rounded bg-gray-300 pt-1 py-2  text-center
+}
+
+.text-plain{
+
+}

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>HTML-PDFTemplate</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body class="w-A4 h-A4 bg-gray">
+    <section
+      class="flex flex-wrap w-full pt-6 pb-6 bg-accent gap-y-1 justify-center relative"
+    >
+      <div class="absolute bottom-0 left-0 right-0 h-full flex justify-between items-end">
+        <div>
+          <svg width="89" height="83" viewBox="0 0 89 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="mask0_202_328" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="89" height="83">
+              <rect width="89" height="83" fill="#D9D9D9"/>
+            </mask>
+            <g mask="url(#mask0_202_328)">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M59.2964 83.8527H89.1109L81.8442 70.9551L66.5631 70.9551L59.2964 83.8527ZM57.6458 83.9999L65.2863 70.4388L57.6458 56.8776H42.3647L34.7242 70.4388L42.3647 83.9999H57.6458ZM65.096 41.9264L57.4555 55.4876H42.1744L34.5339 41.9264L42.1744 28.3653L57.4555 28.3653L65.096 41.9264ZM40.9957 56.2432L33.3552 69.8044H18.0741L10.4336 56.2432L18.0741 42.6821L33.3552 42.6821L40.9957 56.2432ZM17.8676 70.9551L10.6008 83.8528H40.4153L33.1486 70.9551H17.8676ZM40.9083 27.6095L33.2678 41.1706L17.9867 41.1706L10.3462 27.6095L17.9867 14.0483L33.2678 14.0483L40.9083 27.6095ZM-6.28833 27.1223V27.1254H-7.68541L-16.0245 41.9264L-7.68541 56.7275H-6.28833V56.7306H8.99273L16.6333 70.2917L8.99273 83.8528H-6.28833L-6.29108 83.848H-31L-31 0H-6.28833H8.99273L16.6333 13.5611L8.99273 27.1223H-6.28833Z" fill="white"/>
+            </g>
+          </svg>
+
+        </div>
+
+        <div>
+          <svg width="89" height="83" viewBox="0 0 89 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <mask id="mask0_202_327" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="89" height="83">
+              <rect width="89" height="83" transform="matrix(-1 0 0 1 89 0)" fill="#D9D9D9"/>
+            </mask>
+            <g mask="url(#mask0_202_327)">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M29.7036 83.8527H-0.110886L7.15583 70.9551L22.4369 70.9551L29.7036 83.8527ZM31.3542 83.9999L23.7137 70.4388L31.3542 56.8776H46.6353L54.2758 70.4388L46.6353 83.9999H31.3542ZM23.904 41.9264L31.5445 55.4876H46.8256L54.4661 41.9264L46.8256 28.3653L31.5445 28.3653L23.904 41.9264ZM48.0043 56.2432L55.6448 69.8044H70.9259L78.5664 56.2432L70.9259 42.6821L55.6448 42.6821L48.0043 56.2432ZM71.1324 70.9551L78.3992 83.8528H48.5847L55.8514 70.9551H71.1324ZM48.0917 27.6095L55.7322 41.1706L71.0133 41.1706L78.6538 27.6095L71.0133 14.0483L55.7322 14.0483L48.0917 27.6095ZM95.2883 27.1223V27.1254H96.6854L105.025 41.9264L96.6854 56.7275H95.2883V56.7306H80.0073L72.3667 70.2917L80.0073 83.8528H95.2883L95.2911 83.848H120L120 0H95.2883H80.0073L72.3667 13.5611L80.0073 27.1223H95.2883Z" fill="white"/>
+            </g>
+          </svg>
+
+        </div>
+
+      </div>
+
+      <div class="w-2/5 flex flex-col gap-y-1">
+        <div class="w-full px-4 flex justify-end items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              x="0"
+              y="0"
+              width="32"
+              height="32"
+              fill="none"
+              stroke="none"
+            />
+            <path
+              fill="#fff"
+              d="M7 11h2v2H7v-2m14-6v14c0 1.11-.89 2-2 2H5a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h1V1h2v2h8V1h2v2h1a2 2 0 0 1 2 2M5 7h14V5H5v2m14 12V9H5v10h14m-4-6v-2h2v2h-2m-4 0v-2h2v2h-2m-4 2h2v2H7v-2m8 2v-2h2v2h-2m-4 0v-2h2v2h-2Z"
+            />
+          </svg>
+          <p class="text text-white ml-auto mr-9">Date</p>
+          <p class="w-1/2 input" id="date">01/12/2023</p>
+        </div>
+        <div class="w-full px-4 flex justify-end items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              x="0"
+              y="0"
+              width="32"
+              height="32"
+              fill="none"
+              stroke="none"
+            />
+            <path
+              fill="#fff"
+              d="M12 2c3.31 0 6 2.66 6 5.95C18 12.41 12 19 12 19S6 12.41 6 7.95C6 4.66 8.69 2 12 2m0 4a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2m8 13c0 2.21-3.58 4-8 4s-8-1.79-8-4c0-1.29 1.22-2.44 3.11-3.17l.64.91C6.67 17.19 6 17.81 6 18.5c0 1.38 2.69 2.5 6 2.5s6-1.12 6-2.5c0-.69-.67-1.31-1.75-1.76l.64-.91C18.78 16.56 20 17.71 20 19Z"
+            />
+          </svg>
+          <p class="text text-white ml-auto mr-9">Zone</p>
+          <p class="w-1/2 input" id="zone">Grossaffoltern_1</p>
+        </div>
+      </div>
+      <div class="w-2/5 flex gap-y-1">
+        <div class="w-1/3 flex justify-end items-start pr-4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+          >
+            <rect
+              x="0"
+              y="0"
+              width="32"
+              height="32"
+              fill="none"
+              stroke="none"
+            />
+            <path
+              fill="#fff"
+              d="M12 20a7 7 0 0 1-7-7a7 7 0 0 1 7-7a7 7 0 0 1 7 7a7 7 0 0 1-7 7m0-16a9 9 0 0 0-9 9a9 9 0 0 0 9 9a9 9 0 0 0 9-9a9 9 0 0 0-9-9m.5 4H11v6l4.75 2.85l.75-1.23l-4-2.37V8M7.88 3.39L6.6 1.86L2 5.71l1.29 1.53l4.59-3.85M22 5.72l-4.6-3.86l-1.29 1.53l4.6 3.86L22 5.72Z"
+            />
+          </svg>
+        </div>
+        <div class="w-2/3 flex flex-col gap-y-1">
+          <div class="w-full flex justify-end items-center">
+            <p class="ml-auto mr-4 text text-white">Start</p>
+            <p class="w-2/3 input" id="start">09:38:43</p>
+          </div>
+          <div class="w-full flex justify-end items-center">
+            <p class="ml-auto mr-4 text text-white">End</p>
+            <p class="w-2/3 input" id="end">11:04:53</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-6 px-10">
+      <div class="flex w-full gap-x-12 mx-auto justify-between">
+        <div class="flex basis-full justify-between items-center">
+          <svg
+            width="56"
+            height="40"
+            viewBox="0 0 56 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8.46159 7.88462C7.0804 7.88462 5.96159 9.00244 5.96159 10.3827V28.4623C5.96159 29.8428 7.0807 30.9615 8.46159 30.9615H48.8462C49.1648 30.9615 49.4231 31.2198 49.4231 31.5385C49.4231 31.8571 49.1648 32.1154 48.8462 32.1154H8.46159C6.4438 32.1154 4.80774 30.4804 4.80774 28.4623V10.3827C4.80774 8.36424 6.4441 6.73077 8.46159 6.73077H45.7693C47.7872 6.73077 49.4231 8.36666 49.4231 10.3846V10.5769H48.2693V10.3846C48.2693 9.00391 47.15 7.88462 45.7693 7.88462H8.46159Z"
+              fill="#3BAB36"
+            />
+            <path
+              d="M48.8462 17.4039L47.6924 13.0769L48.8462 13.4616L50.0001 13.0769L48.8462 17.4039Z"
+              fill="#3BAB36"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M48.2693 12.6611V10.3846H49.4231V12.6611L50.8334 12.191L48.8462 19.6429L46.859 12.191L48.2693 12.6611ZM48.5257 13.9628L48.8462 15.1648L49.1667 13.9628L48.8462 14.0697L48.5257 13.9628Z"
+              fill="#3BAB36"
+            />
+            <path
+              d="M27.2749 26.3077C26.6595 26.3077 26.0633 26.2564 25.4864 26.1538C24.9095 26.0513 24.371 25.8974 23.871 25.6923C23.3838 25.4744 22.9415 25.2115 22.5441 24.9038C22.4159 24.8141 22.3261 24.7115 22.2748 24.5962C22.2364 24.468 22.23 24.3526 22.2556 24.25C22.2941 24.1346 22.3518 24.0385 22.4287 23.9615C22.5184 23.8846 22.621 23.8462 22.7364 23.8462C22.8518 23.8333 22.9736 23.8718 23.1018 23.9615C23.6915 24.3974 24.3133 24.718 24.9672 24.9231C25.6338 25.1282 26.4031 25.2308 27.2749 25.2308C28.4928 25.2308 29.4031 24.9936 30.0056 24.5192C30.621 24.0449 30.9287 23.4231 30.9287 22.6538C30.9287 22.0128 30.7043 21.5128 30.2556 21.1538C29.8197 20.7949 29.0954 20.5128 28.0825 20.3077L26.1402 19.9038C24.9223 19.6603 24.0184 19.25 23.4287 18.6731C22.839 18.0962 22.5441 17.3269 22.5441 16.3654C22.5441 15.7756 22.6595 15.2436 22.8902 14.7692C23.121 14.2821 23.4479 13.8654 23.871 13.5192C24.2941 13.1731 24.7941 12.9103 25.371 12.7308C25.9607 12.5385 26.6082 12.4423 27.3133 12.4423C28.1466 12.4423 28.9095 12.5577 29.6018 12.7885C30.3069 13.0192 30.9479 13.3846 31.5249 13.8846C31.6402 13.9744 31.7172 14.0833 31.7556 14.2115C31.7941 14.3269 31.7941 14.4423 31.7556 14.5577C31.7172 14.6603 31.6595 14.7436 31.5825 14.8077C31.5056 14.8718 31.4095 14.9103 31.2941 14.9231C31.1787 14.9231 31.0569 14.8718 30.9287 14.7692C30.3902 14.3333 29.8261 14.0192 29.2364 13.8269C28.6595 13.6218 28.0184 13.5192 27.3133 13.5192C26.5954 13.5192 25.9672 13.6346 25.4287 13.8654C24.9031 14.0962 24.4928 14.4231 24.1979 14.8462C23.9031 15.2692 23.7556 15.7692 23.7556 16.3462C23.7556 17.0128 23.9607 17.5449 24.371 17.9423C24.7813 18.3397 25.4415 18.6282 26.3518 18.8077L28.3133 19.2115C29.6082 19.4808 30.5697 19.8846 31.1979 20.4231C31.8261 20.9487 32.1402 21.6731 32.1402 22.5962C32.1402 23.1474 32.0249 23.6538 31.7941 24.1154C31.5761 24.5641 31.2556 24.9551 30.8325 25.2885C30.4095 25.6218 29.8966 25.8782 29.2941 26.0577C28.7043 26.2244 28.0313 26.3077 27.2749 26.3077Z"
+              fill="#3BAB36"
+            />
+          </svg>
+
+          <p class="ml-1 text">Total surface, m²</p>
+          <p class="ml-4 w-1/4 input" id="totalSurface">999</p>
+        </div>
+        <div class="flex basis-full justify-between items-center">
+          <svg
+            width="56"
+            height="40"
+            viewBox="0 0 56 40"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8.46159 7.88462C7.0804 7.88462 5.96159 9.00244 5.96159 10.3827V28.4623C5.96159 29.8428 7.0807 30.9615 8.46159 30.9615H48.8462C49.1648 30.9615 49.4231 31.2198 49.4231 31.5385C49.4231 31.8571 49.1648 32.1154 48.8462 32.1154H8.46159C6.4438 32.1154 4.80774 30.4804 4.80774 28.4623V10.3827C4.80774 8.36424 6.4441 6.73077 8.46159 6.73077H45.7693C47.7872 6.73077 49.4231 8.36666 49.4231 10.3846V10.5769H48.2693V10.3846C48.2693 9.00391 47.15 7.88462 45.7693 7.88462H8.46159Z"
+              fill="#3BAB36"
+            />
+            <path
+              d="M48.8462 17.4039L47.6924 13.0769L48.8462 13.4616L50.0001 13.0769L48.8462 17.4039Z"
+              fill="#3BAB36"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M48.2693 12.6611V10.3846H49.4231V12.6611L50.8334 12.191L48.8462 19.6429L46.859 12.191L48.2693 12.6611ZM48.5257 13.9628L48.8462 15.1648L49.1667 13.9628L48.8462 14.0697L48.5257 13.9628Z"
+              fill="#3BAB36"
+            />
+            <path
+              d="M7.30774 11.5385C7.30774 10.264 8.34093 9.23077 9.61543 9.23077H31.1539C32.4284 9.23077 33.4616 10.264 33.4616 11.5385V27.3077C33.4616 28.5822 32.4284 29.6154 31.1539 29.6154H9.61543C8.34093 29.6154 7.30774 28.5822 7.30774 27.3077V11.5385Z"
+              fill="#3BAB36"
+              fill-opacity="0.5"
+            />
+            <path
+              d="M24.775 26.3077C24.1596 26.3077 23.5634 26.2564 22.9865 26.1538C22.4096 26.0513 21.8711 25.8974 21.3711 25.6923C20.8839 25.4744 20.4416 25.2115 20.0442 24.9038C19.916 24.8141 19.8263 24.7115 19.775 24.5962C19.7365 24.468 19.7301 24.3526 19.7557 24.25C19.7942 24.1346 19.8519 24.0385 19.9288 23.9615C20.0186 23.8846 20.1211 23.8462 20.2365 23.8462C20.3519 23.8333 20.4737 23.8718 20.6019 23.9615C21.1916 24.3974 21.8134 24.718 22.4673 24.9231C23.1339 25.1282 23.9032 25.2308 24.775 25.2308C25.9929 25.2308 26.9032 24.9936 27.5057 24.5192C28.1211 24.0449 28.4288 23.4231 28.4288 22.6538C28.4288 22.0128 28.2045 21.5128 27.7557 21.1538C27.3198 20.7949 26.5955 20.5128 25.5827 20.3077L23.6404 19.9038C22.4224 19.6603 21.5186 19.25 20.9288 18.6731C20.3391 18.0962 20.0442 17.3269 20.0442 16.3654C20.0442 15.7756 20.1596 15.2436 20.3904 14.7692C20.6211 14.2821 20.948 13.8654 21.3711 13.5192C21.7942 13.1731 22.2942 12.9103 22.8711 12.7308C23.4609 12.5385 24.1083 12.4423 24.8134 12.4423C25.6468 12.4423 26.4096 12.5577 27.1019 12.7885C27.807 13.0192 28.4481 13.3846 29.025 13.8846C29.1404 13.9744 29.2173 14.0833 29.2557 14.2115C29.2942 14.3269 29.2942 14.4423 29.2557 14.5577C29.2173 14.6603 29.1596 14.7436 29.0827 14.8077C29.0057 14.8718 28.9096 14.9103 28.7942 14.9231C28.6788 14.9231 28.557 14.8718 28.4288 14.7692C27.8904 14.3333 27.3263 14.0192 26.7365 13.8269C26.1596 13.6218 25.5186 13.5192 24.8134 13.5192C24.0955 13.5192 23.4673 13.6346 22.9288 13.8654C22.4032 14.0962 21.9929 14.4231 21.698 14.8462C21.4032 15.2692 21.2557 15.7692 21.2557 16.3462C21.2557 17.0128 21.4609 17.5449 21.8711 17.9423C22.2814 18.3397 22.9416 18.6282 23.8519 18.8077L25.8134 19.2115C27.1083 19.4808 28.0698 19.8846 28.698 20.4231C29.3263 20.9487 29.6404 21.6731 29.6404 22.5962C29.6404 23.1474 29.525 23.6538 29.2942 24.1154C29.0763 24.5641 28.7557 24.9551 28.3327 25.2885C27.9096 25.6218 27.3968 25.8782 26.7942 26.0577C26.2045 26.2244 25.5314 26.3077 24.775 26.3077Z"
+              fill="white"
+            />
+          </svg>
+
+          <p class="ml-1 text">Covered surface</p>
+          <p class="ml-4 w-1/4 input" id="coveredSurface">999</p>
+        </div>
+      </div>
+
+      <div class="w-full h-80 bg-accent mt-4 rounded-xl" id="map"></div>
+
+      <div class="w-full flex justify-between mt-8 gap-16">
+        <div class="basis-1/2">
+          <div class="mb-4 justify-start flex w-full">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+            >
+              <rect
+                x="0"
+                y="0"
+                width="32"
+                height="32"
+                fill="none"
+                stroke="none"
+              />
+              <path
+                fill="#3BAB36"
+                d="M12 20a7 7 0 0 1-7-7a7 7 0 0 1 7-7a7 7 0 0 1 7 7a7 7 0 0 1-7 7m0-16a9 9 0 0 0-9 9a9 9 0 0 0 9 9a9 9 0 0 0 9-9a9 9 0 0 0-9-9m.5 4H11v6l4.75 2.85l.75-1.23l-4-2.37V8M7.88 3.39L6.6 1.86L2 5.71l1.29 1.53l4.59-3.85M22 5.72l-4.6-3.86l-1.29 1.53l4.6 3.86L22 5.72Z"
+              />
+            </svg>
+
+            <p class="text">Duration</p>
+            <div class="input ml-4 w-2/5" id="duration">02:55:44</div>
+          </div>
+          <div
+            class="h-64 w-64 bg-accent rounded-full ml-0 mr-auto"
+            id="chart"
+          ></div>
+        </div>
+
+        <div class="basis-1/2">
+          <div class="flex w-full items-center">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="20" cy="20" r="20" fill="#9AC454" />
+            </svg>
+
+            <p class="ml-4 text-xl">Plantain_great</p>
+            <div class="input ml-auto w-1/5" id="weed_1">140</div>
+          </div>
+
+          <div class="flex w-full items-center mt-2">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="20" cy="20" r="20" fill="#D8DF50" />
+            </svg>
+
+            <p class="ml-4 text-xl">Dandellion</p>
+            <div class="input ml-auto w-1/5" id="weed_2">21</div>
+          </div>
+
+          <div class="flex w-full items-center mt-2">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="20" cy="20" r="20" fill="#44934D" />
+            </svg>
+
+            <p class="ml-4 text-xl">Plantain_narrowleaf</p>
+            <div class="input ml-auto w-1/5" id="weed_3">2</div>
+          </div>
+
+          <div class="flex w-full items-center mt-2">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="20" cy="20" r="20" fill="#59B37A" />
+            </svg>
+
+            <p class="ml-4 text-xl">Daisy</p>
+            <div class="input ml-auto w-1/5" id="weed_4">0</div>
+          </div>
+
+          <div class="flex w-full items-center mt-2">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="20" cy="20" r="20" fill="#51A49E" />
+            </svg>
+
+            <p class="ml-4 text-xl">Porcelle</p>
+            <div class="input ml-auto w-1/5" id="weed_5">0</div>
+          </div>
+
+          <div class="flex w-full items-center mt-6">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="20"
+                cy="20"
+                r="20"
+                fill="url(#paint0_radial_202_297)"
+              />
+              <defs>
+                <radialGradient
+                  id="paint0_radial_202_297"
+                  cx="0"
+                  cy="0"
+                  r="1"
+                  gradientUnits="userSpaceOnUse"
+                  gradientTransform="translate(20 20) rotate(90) scale(20)"
+                >
+                  <stop stop-color="#D8DF50" />
+                  <stop offset="0.322917" stop-color="#9AC454" />
+                  <stop offset="0.703125" stop-color="#59B37A" />
+                  <stop offset="1" stop-color="#51A49E" />
+                </radialGradient>
+              </defs>
+            </svg>
+
+            <p class="ml-4 text">Total</p>
+            <div class="input ml-auto w-1/5 font-bold" id="weedTotal">163</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-full mt-8">
+        <div class="w-full flex">
+          <svg
+            width="40"
+            height="40"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2ZM20 16H5.2L4 17.2V4H20V16Z"
+              fill="#3BAB36"
+            />
+            <path
+              d="M7 7H17"
+              stroke="#3BAB36"
+              stroke-opacity="0.72"
+              stroke-linecap="round"
+            />
+            <path
+              d="M7 10H17"
+              stroke="#3BAB36"
+              stroke-opacity="0.72"
+              stroke-linecap="round"
+            />
+            <path
+              d="M7 13H17"
+              stroke="#3BAB36"
+              stroke-opacity="0.72"
+              stroke-linecap="round"
+            />
+          </svg>
+
+          <p class="text">Customer feedback</p>
+        </div>
+        <p
+          class="mt-2 w-full rounded-xl h-32 bg-gray-300 border-3 border-gray-200" id="feedback"
+        ></p>
+      </div>
+    </section>
+  </body>
+</html>
